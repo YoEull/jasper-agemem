@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Base CogDB locale
+ltm/*.db
+ltm/*.cog
+
+# Secrets
+.env
+
+# VS Code
+.vscode/
+
+# Divers
+*.log
