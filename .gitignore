@@ -1,18 +1,33 @@
 # Python
 __pycache__/
 *.pyc
+*.py[cod]
 .venv/
+venv/
 *.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Base CogDB locale
-ltm/*.db
+# Base LTM locale (RyuGraph / fallback Kuzu, Ladybug)
+ltm/*.db/
+ltm/*.ryu/
+ltm/*.kuzu/
 ltm/*.cog
+
+# STM — archives expirées et sources brutes non versionnées
+stm/wiki/_expired/
+stm/raw/*
+!stm/raw/.gitkeep
 
 # Secrets
 .env
+*.key
 
-# VS Code
+# OS / IDE
+.DS_Store
 .vscode/
+.idea/
 
 # Divers
 *.log

@@ -1,0 +1,21 @@
+# jasper-agemem — dépendances
+# Python 3.12
+
+# Graphe LTM (fork Kuzu, embarqué, Cypher + vecteurs)
+ryugraph>=0.1.0
+
+# Claude API (gouvernance, extraction entités, résumés)
+anthropic>=0.40.0
+
+# Embeddings locaux (bge-m3 par défaut, offline)
+sentence-transformers>=3.0.0
+
+# Parsing frontmatter YAML des pages wiki
+python-frontmatter>=1.1.0
+
+# CLI
+typer>=0.12.0
+
+# Dev
+pytest>=8.0.0
+pytest-cov>=5.0.0
